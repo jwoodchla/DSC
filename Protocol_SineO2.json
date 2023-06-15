@@ -1,0 +1,600 @@
+{
+  "SourceGasesViewModel": {
+    "SourceGasLowOxygenBlend": {
+      "O2_Percentx100": 400,
+      "CO2_Percentx100": 0,
+      "RoomAirSelected": false,
+      "VentMode": 0
+    },
+    "SourceGasCO2Blend": {
+      "O2_Percentx100": 400,
+      "CO2_Percentx100": 9600,
+      "RoomAirSelected": false,
+      "VentMode": 0
+    },
+    "SourceGasOxygen": {
+      "O2_Percentx100": 10000,
+      "CO2_Percentx100": 0,
+      "RoomAirSelected": false,
+      "VentMode": 0
+    },
+    "AllowHypoxicBlends": true
+  },
+  "SequenceViewModel": {
+    "SequenceStageViewModels": [
+      {
+        "IsHeader": false,
+        "Number": 1,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1050,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 100
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 30,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 2,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1050,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 30,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 3,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 650,
+          "WaveAmplitudePkToPk_x10mmHg": 300
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 1,
+        "Duration_s": 20,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 4,
+        "SequenceStageO2": {
+          "TargetType": 1,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 314
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 2,
+        "Duration_s": 40,
+        "DurationType": 1,
+        "WavePeriod_s": 165,
+        "PhaseShift_deg": 180
+      },
+      {
+        "IsHeader": false,
+        "Number": 5,
+        "SequenceStageO2": {
+          "TargetType": 1,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 288
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 2,
+        "Duration_s": 30,
+        "DurationType": 1,
+        "WavePeriod_s": 129,
+        "PhaseShift_deg": 270
+      },
+      {
+        "IsHeader": false,
+        "Number": 6,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1050,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 1,
+        "Duration_s": 30,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 7,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 650,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 1,
+        "Duration_s": 20,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 8,
+        "SequenceStageO2": {
+          "TargetType": 1,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 314
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 2,
+        "Duration_s": 40,
+        "DurationType": 1,
+        "WavePeriod_s": 165,
+        "PhaseShift_deg": 180
+      },
+      {
+        "IsHeader": false,
+        "Number": 9,
+        "SequenceStageO2": {
+          "TargetType": 1,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 288
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 2,
+        "Duration_s": 30,
+        "DurationType": 1,
+        "WavePeriod_s": 129,
+        "PhaseShift_deg": 270
+      },
+      {
+        "IsHeader": false,
+        "Number": 10,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1050,
+          "WaveAmplitudePkToPk_x10mmHg": 300
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 1,
+        "Duration_s": 30,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 11,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 650,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 1,
+        "Duration_s": 20,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 12,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 900,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 300,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 13,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1200,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 90,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 14,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 350,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 40,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 15,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1200,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 60,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 16,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 350,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 40,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 17,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1200,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 60,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 18,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 900,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 300,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 19,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 700,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 60,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 20,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 400,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 60,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 21,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1000,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 10,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 22,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 400,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 60,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 23,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 1000,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 10,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 24,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 400,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 60,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 25,
+        "SequenceStageO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 900,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 300,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 26,
+        "SequenceStageO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "Priority": 0,
+        "StageType": 0,
+        "Duration_s": 60,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      },
+      {
+        "IsHeader": false,
+        "Number": 27,
+        "SequenceStageO2": {
+          "TargetType": 0,
+          "Target_x10mmHg": 0,
+          "WaveAmplitudePkToPk_x10mmHg": 0
+        },
+        "SequenceStageCO2": {
+          "TargetType": 2,
+          "Target_x10mmHg": 400,
+          "WaveAmplitudePkToPk_x10mmHg": 100
+        },
+        "Priority": 0,
+        "StageType": 2,
+        "Duration_s": 240,
+        "DurationType": 1,
+        "WavePeriod_s": 60,
+        "PhaseShift_deg": 0
+      }
+    ],
+    "AllowHypoxicBreaths": true,
+    "DynamicBaseGasSelected": true,
+    "EndSequenceTargetResting": false
+  },
+  "UpdateDate": "2021-05-17T22:39:58.9107911Z",
+  "StudyLocationViewModel": {
+    "BaroRangeSliderViewModel": {
+      "Minimum": 485,
+      "Maximum": 760,
+      "LowerValue": 485,
+      "UpperValue": 760
+    }
+  },
+  "StudyPopulationViewModel": {
+    "HeightRangeSliderViewModel": {
+      "Minimum": 100,
+      "Maximum": 225,
+      "LowerValue": 100,
+      "UpperValue": 225
+    },
+    "WeightRangeSliderViewModel": {
+      "Minimum": 30,
+      "Maximum": 200,
+      "LowerValue": 30,
+      "UpperValue": 100
+    },
+    "AgeRangeSliderViewModel": {
+      "Minimum": 8,
+      "Maximum": 100,
+      "LowerValue": 8,
+      "UpperValue": 100
+    },
+    "PopulationSex": 2
+  }
+}
